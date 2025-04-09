@@ -24,7 +24,7 @@ function showMegaMenu() {
   links.forEach((li) => {
     li.querySelector("a").style.color = "#021526";
   });
-  logo.src = "../assets/logo_white.png";
+  logo.src = "assets/logo_white.png";
 }
 
 // Mega Menu Hide
@@ -44,7 +44,7 @@ function hideMegaMenu() {
   links.forEach((li) => {
     li.querySelector("a").style.color = "#EDEBE7";
   });
-  logo.src = "../assets/logo_dark.png";
+  logo.src = "assets/logo_dark.png";
 }
 
 // Handle hover areas with delay
