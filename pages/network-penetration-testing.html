@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xemicolon Technology</title>
+    <link
+      rel="icon"
+      href="../assets/logo_small_white.jpg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="navbar" id="navbar">
+      <div class="container">
+        <a href="../index.html"><img
+          src="../assets/logo_dark.png"
+          alt="Xemicolon Logo"
+          class="logo-img"
+          id="logo"
+        /></a>
+
+        <nav class="nav-center">
+          <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li class="mega-toggle" id="servicesLink">
+              <a href="#">Services</a>
+            </li>
+            <li><a href="#">Solutions</a></li>
+            <li><a href="../index.html#contact-section">Contact Us</a></li>
+          </ul>
+        </nav>
+
+        <div class="hamburger" id="hamburger">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+
+      <!-- Mega Menu -->
+      <div class="mega-menu" id="megaMenu">
+        <div class="mega-left">
+          <ul class="service-tabs">
+            <li class="active" data-target="pentest">Penetration testing →</li>
+            <li data-target="dev">Development →</li>
+            <li data-target="biz">Business and Enterprise →</li>
+          </ul>
+        </div>
+        <div class="divider"></div>
+        <div class="mega-right">
+          <ul class="mega-content active" id="pentest">
+            <li>
+              <a href="../pages/web-application-penetration-testing.html"
+                >Web Application Penetration Testing</a
+              >
+            </li>
+            <li>
+              <a href="../pages/mobile-application-penetration-testing.html"
+                >Mobile Application Penetration Testing</a
+              >
+            </li>
+            <li>
+              <a href="../pages/api-penetration-testing.html"
+                >API Penetration Testing</a
+              >
+            </li>
+            <li>
+              <a href="../pages/network-penetration-testing.html"
+                >Network Penetration Testing</a
+              >
+            </li>
+          </ul>
+          <ul class="mega-content" id="dev">
+            <li><a href="#">Custom Software</a></li>
+            <li><a href="#">API Integration</a></li>
+          </ul>
+          <ul class="mega-content" id="biz">
+            <li><a href="#">Consulting</a></li>
+            <li><a href="#">Enterprise Solutions</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Fullscreen Mobile Nav -->
+      <div class="mobile-nav-overlay" id="mobileNav">
+        <div class="close-icon" id="closeNav">&times;</div>
+        <ul class="mobile-nav-links">
+          <li><a href="../index.html">Home</a></li>
+
+          <li class="has-submenu">
+            <a href="#" id="servicesToggle">Services ▾</a>
+            <ul class="submenu" id="servicesSubmenu">
+              <li><a href="../pages/web-application-penetration-testing.html">Web Application Penetration Testing</a></li>
+              <li><a href="../pages/mobile-application-penetration-testing.html">Mobile Application Penetration Testing</a></li>
+              <li><a href="../pages/api-penetration-testing.html">API Penetration Testing</a></li>
+              <li><a href="../pages/network-penetration-testing.html">Network Penetration Testing</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#">Solutions</a></li>
+          <li><a href="#contact-section">Contact Us</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      style="background: #f5f1eb; padding: 60px 20px; font-family: Poppins;margin-top: 90px"
+    >
+      <div
+        style="
+          max-width: 1200px;
+          margin: 0 auto;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          gap: 40px;
+        "
+      >
+        <!-- Left Content -->
+        <div style="flex: 1; min-width: 300px">
+          <h1
+            style="
+              font-size: 32px;
+              font-weight: bold;
+              margin-bottom: 20px;
+              color: #021526;
+            "
+          >
+            Network Penetration Testing
+          </h1>
+
+          <div
+            style="
+              border-left: 4px solid #f78c30;
+              padding-left: 15px;
+              margin-bottom: 25px;
+            "
+          >
+            <p style="font-size: 18px; color: #021526; margin: 0">
+              Find Security Gaps Before Hackers Do<br />
+              Protect Your Network from Cyber Threats
+            </p>
+          </div>
+
+          <a
+            href="../index.html#contact-section"
+            style="
+              display: inline-block;
+              background-color: #f78c30;
+              color: white;
+              padding: 10px 24px;
+              text-decoration: none;
+              border-radius: 4px;
+              font-weight: bold;
+            "
+          >
+            Visit Us
+          </a>
+        </div>
+
+        <!-- Right Image -->
+        <!-- <div style="flex: 1; min-width: 300px; text-align: right">
+          <img
+            src="../assets/network_pentest.png"
+            alt="Network Security Icon"
+            style="max-width: 50%; height: auto"
+          />
+        </div> -->
+      </div>
+    </section>
+
+    <section style="background-color: #edebe7; padding: 15px 20px">
+      <div style="max-width: 1200px; margin: 0 auto; font-size: 14px">
+        <a href="/" style="color: #021526; text-decoration: none">Home</a>
+        <span style="color: #021526"> &gt; </span>
+        <a href="/services" style="color: #021526; text-decoration: none"
+          >Services</a
+        >
+        <span style="color: #021526"> &gt; </span>
+        <span style="color: #021526; font-weight: bold"
+          >Network Penetration Testing</span
+        >
+      </div>
+    </section>
+
+    <!-- Section: How We Strengthen Your Network Security -->
+    <section style="padding: 60px 20px">
+      <div style="max-width: 1200px; margin: 0 auto">
+        <h2 style="font-size: 28px; margin-bottom: 30px">
+          How We Secure Your Network
+        </h2>
+
+        <div style="margin-bottom: 40px">
+          <h3 style="color: #f78c30">1. Scope & Strategy</h3>
+          <p style="line-height: 1.6">
+            We tailor our testing based on your infrastructure—mapping internal
+            and external attack surfaces and aligning with industry standards
+            like MITRE ATT&CK, NIST, and CIS Controls to simulate real-world
+            hacker techniques.
+          </p>
+        </div>
+
+        <div style="margin-bottom: 40px">
+          <h3 style="color: #f78c30">2. Risk Discovery & Network Recon</h3>
+          <ul style="padding-left: 20px; line-height: 1.8">
+            <li>
+              <strong>Network Mapping:</strong> Discover all active devices,
+              services, and endpoints.
+            </li>
+            <li>
+              <strong>Firewall & Patch Review:</strong> Analyze
+              misconfigurations and outdated software.
+            </li>
+            <li>
+              <strong>Access Control Audits:</strong> Check for excessive
+              privileges and weak authentication.
+            </li>
+            <li>
+              <strong>Wi-Fi & Wireless Security:</strong> Identify rogue access
+              points and credential exposure risks.
+            </li>
+          </ul>
+        </div>
+
+        <div style="margin-bottom: 40px">
+          <h3 style="color: #f78c30">
+            3. Simulated Attacks – Real Hacker Tactics
+          </h3>
+          <p style="line-height: 1.6">
+            We test your infrastructure by simulating external and internal
+            network breaches:
+          </p>
+          <ul style="padding-left: 20px; line-height: 1.8">
+            <li>
+              <strong>External Pentesting:</strong> Web servers, VPNs, email
+              servers, exposed ports.
+            </li>
+            <li>
+              <strong>Internal Pentesting:</strong> Employee devices, domain
+              controllers, privilege escalation paths.
+            </li>
+            <li>
+              <strong>Firewall Evasion:</strong> IDS/IPS and segmentation bypass
+              techniques.
+            </li>
+            <li>
+              <strong>Social Engineering:</strong> Phishing simulations and
+              employee awareness testing.
+            </li>
+            <li>
+              <strong>Wireless Pentesting:</strong> Exploit weak encryption or
+              rogue devices.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: What You Get -->
+    <section
+      style="background-color: #f5f1eb; padding: 60px 20px; color: #021526"
+    >
+      <div style="max-width: 1200px; margin: 0 auto">
+        <h2 style="font-size: 28px; margin-bottom: 30px">
+          What You Get – Actionable Network Security Insights
+        </h2>
+        <ul style="padding-left: 20px; line-height: 1.8">
+          <li>
+            <strong>Executive Summary:</strong> Clear, non-technical overview of
+            key threats.
+          </li>
+          <li>
+            <strong>Technical Fix List:</strong> Step-by-step remediation for IT
+            teams.
+          </li>
+          <li>
+            <strong>Risk Prioritization:</strong> Threats ranked by severity
+            (Critical / High / Medium / Low).
+          </li>
+          <li>
+            <strong>60-Minute Expert Debrief:</strong> We walk you through the
+            findings and fixes.
+          </li>
+          <li>
+            <strong>Re-Test Option:</strong> Validate that all vulnerabilities
+            have been resolved.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Section: Why Network Security Matters -->
+    <section
+      style="padding: 60px 20px; background-color: #f5f1eb; color: #021526"
+    >
+      <div style="max-width: 1200px; margin: 0 auto">
+        <h2 style="font-size: 28px; margin-bottom: 30px">
+          Why Network Security Matters
+        </h2>
+        <ul style="padding-left: 20px; line-height: 1.8">
+          <li>
+            <strong>Prevent Breaches & Ransomware:</strong> Stop attackers
+            before they gain access.
+          </li>
+          <li>
+            <strong>Avoid Downtime:</strong> Attacks can paralyze systems and
+            drain revenue.
+          </li>
+          <li>
+            <strong>Protect Brand Reputation:</strong> Customers expect your
+            infrastructure to be secure.
+          </li>
+          <li>
+            <strong>Stay Compliant:</strong> Meet regulatory standards like ISO
+            27001, HIPAA, and GDPR.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section
+      style="
+        padding: 60px 20px;
+        background-color: #021526;
+        color: #fff;
+        text-align: center;
+      "
+    >
+      <div style="max-width: 800px; margin: 0 auto">
+        <h2 style="font-size: 28px; margin-bottom: 20px; color: #f78c30">
+          Lock Down Your Network Now
+        </h2>
+        <p style="font-size: 16px; margin-bottom: 30px">
+          One weak link can bring down your entire network—test before attackers
+          do.
+        </p>
+        <a
+          href="../index.html#contact-section"
+          style="
+            display: inline-block;
+            background-color: #f78c30;
+            color: #021526;
+            padding: 14px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 6px;
+          "
+        >
+          Schedule Free Network Assessment
+        </a>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-container">
+        <!-- Brand/Logo -->
+        <div class="footer-col brand">
+          <img
+            src="../assets/logo_dark.jpg"
+            alt="Xemicolon Logo"
+            class="footer-logo"
+          />
+          <p>Empowering businesses with secure, scalable IT solutions.</p>
+
+          <!-- Social Media Icons -->
+          <div class="social-icons">
+            <a href="#" aria-label="LinkedIn">
+              <svg fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.8v2.2h.1c.7-1.3 2.4-2.6 5-2.6 5.4 0 6.4 3.5 6.4 8v8.4h-5V16c0-1.6-.1-3.7-2.2-3.7-2.2 0-2.5 1.7-2.5 3.6v8.1h-5V8z"
+                />
+              </svg>
+            </a>
+            <a href="#" aria-label="Twitter">
+              <svg fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M23 3a10.9 10.9 0 01-3.14 1.53A4.48 4.48 0 0022.4.36a9.3 9.3 0 01-2.83 1.08 4.48 4.48 0 00-7.6 4.08A12.7 12.7 0 013 2.47a4.48 4.48 0 001.39 5.96A4.48 4.48 0 012 7.58v.05a4.48 4.48 0 003.6 4.4A4.48 4.48 0 012 12.75a4.48 4.48 0 004.19 3.13A9 9 0 012 19.54a12.7 12.7 0 006.29 1.84c7.55 0 11.67-6.26 11.67-11.67 0-.18-.01-.36-.02-.54A8.36 8.36 0 0023 3z"
+                />
+              </svg>
+            </a>
+            <a href="#" aria-label="Facebook">
+              <svg fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M22.675 0h-21.35C.597 0 0 .597 0 1.325v21.351C0 23.403.597 24 1.325 24H12.82v-9.294H9.692V11.27h3.127V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.464.099 2.796.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.312h3.587l-.467 3.436h-3.12V24h6.116C23.403 24 24 23.403 24 22.676V1.325C24 .597 23.403 0 22.675 0z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Navigation -->
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li id="services-li">
+              <a href="#">Web Application Penetration Testing</a>
+            </li>
+            <li><a href="#">Mobile Application Penetration Testing</a></li>
+            <li><a href="#">API Penetration Testing</a></li>
+            <li><a href="#">Network Penetration Testing</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Solutions</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-col">
+          <h4>Get in Touch</h4>
+          <ul>
+            <li><a href="mailto:info@xemicolon.com">info@xemicolon.com</a></li>
+            <li><a href="#">+855 XXX XXX XXX</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Xemicolon Technology. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+  <script src="../script.js"></script>
+  <script src="../nav-animation.js"></script>
+</html>

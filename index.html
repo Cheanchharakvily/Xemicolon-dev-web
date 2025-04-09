@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Xemicolon Technology</title>
+  <link rel="icon" href="assets/logo_small_white.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar" id="navbar">
+      <div class="container">
+        <img src="assets/logo_dark.png" alt="Xemicolon Logo" class="logo-img" id="logo" />
+      
+        <nav class="nav-center">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li class="mega-toggle" id="servicesLink"><a href="#">Services</a></li>
+            <li><a href="#">Solutions</a></li>
+            <li><a href="#contact-section">Contact Us</a></li>
+          </ul>
+        </nav>
+      
+        <div class="hamburger" id="hamburger">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+      
+      <!-- Mega Menu -->
+      <div class="mega-menu" id="megaMenu">
+        <div class="mega-left">
+          <ul class="service-tabs">
+            <li class="active" data-target="pentest">Penetration testing →</li>
+            <li data-target="dev">Development →</li>
+            <li data-target="biz">Business and Enterprise →</li>
+          </ul>
+        </div>
+        <div class="divider"></div>
+        <div class="mega-right">
+          <ul class="mega-content active" id="pentest">
+            <li><a href="pages/web-application-penetration-testing.html">Web Application Penetration Testing</a></li>
+            <li><a href="pages/mobile-application-penetration-testing.html">Mobile Application Penetration Testing</a></li>
+            <li><a href="pages/api-penetration-testing.html">API Penetration Testing</a></li>
+            <li><a href="pages/network-penetration-testing.html">Network Penetration Testing</a></li>
+          </ul>
+          <ul class="mega-content" id="dev">
+            <li><a href="#">Custom Software</a></li>
+            <li><a href="#">API Integration</a></li>
+          </ul>
+          <ul class="mega-content" id="biz">
+            <li><a href="#">Consulting</a></li>
+            <li><a href="#">Enterprise Solutions</a></li>
+          </ul>
+        </div>
+      </div>
+      </header>
+      
+      <!-- Fullscreen Mobile Nav -->
+      <div class="mobile-nav-overlay" id="mobileNav">
+        <div class="close-icon" id="closeNav">&times;</div>
+        <ul class="mobile-nav-links">
+          <li><a href="index.html">Home</a></li>
+        
+          <li class="has-submenu">
+            <a href="#" id="servicesToggle">Services ▾</a>
+            <ul class="submenu" id="servicesSubmenu">
+              <li><a href="pages/web-application-penetration-testing.html">Web Application Penetration Testing</a></li>
+              <li><a href="pages/mobile-application-penetration-testing.html">Mobile Application Penetration Testing</a></li>
+              <li><a href="pages/api-penetration-testing.html">API Penetration Testing</a></li>
+              <li><a href="pages/network-penetration-testing.html">Network Penetration Testing</a></li>
+            </ul>
+          </li>
+        
+          <li><a href="#">Solutions</a></li>
+          <li><a href="#contact-section">Contact Us</a></li>
+        </ul>
+      </div>
+      
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-overlay">
+      <div class="hero-content">
+        <h1>
+          Empowering Businesses,<br />
+          <span>Protecting Your Company Fast.</span>
+        </h1>
+        <p>
+          From Enterprise Systems to Cybersecurity & Custom Development,<br />
+          Xemicolon Technology delivers tailored IT solutions to help you scale, secure, and succeed.
+        </p>
+        <a href="#contact-section" class="btn-cta">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="services-grid">
+    <div class="grid-box intro-box">
+      <div class="overlay">
+        <p>OUR SERVICES</p>
+        <h2>WHAT WE CAN DO?</h2>
+      </div>
+    </div>
+  
+    <div class="grid-box web-pentest-bg">
+      <img src="assets/web-pentest-icon.png" alt="Web App Pentest">
+      <a href="pages/web-application-penetration-testing.html"><div class="service-meta">
+        <span class="service-type">Penetration Testing Service</span>
+        <h3 class="service-title">web application penetration testing</h3>
+      </div>
+      <div class="arrow-icon">&#10132;</div></a>
+    </div>
+  
+    <div class="grid-box mobile-pentest-bg">
+      <img src="assets/mobile-pentest-icon.png" alt="Web App Pentest">
+      <a href="pages/mobile-application-penetration-testing.html"><div class="service-meta">
+        <span class="service-type">Penetration Testing Service</span>
+        <h3 class="service-title">Mobile application penetration testing</h3>
+      </div>
+      <div class="arrow-icon">&#10132;</div></a>
+    </div>
+  
+    <div class="grid-box net-pentest-bg">
+      <img src="assets/network-pentest-icon.png" alt="Web App Pentest">
+      <a href="pages/network-penetration-testing.html"><div class="service-meta">
+        <span class="service-type">Penetration Testing Service</span>
+        <h3 class="service-title">Network penetration testing</h3>
+      </div>
+      <div class="arrow-icon">&#10132;</div></a>
+    </div>
+  
+    <div class="grid-box api-pentest-bg">
+      <img src="assets/api-pentest-icon.png" alt="Web App Pentest">
+      <a href="pages/api-penetration-testing.html"><div class="service-meta">
+        <span class="service-type">Penetration Testing Service</span>
+        <h3 class="service-title">API penetration testing</h3>
+      </div>
+      <div class="arrow-icon">&#10132;</div></a>
+    </div>
+  
+    <div class="grid-box cta-box">
+      <a href="/pages/all-services.html">
+        <span>&#10132;</span>
+        <p>Looking for more Service?</p>
+      </a>
+    </div>
+  </section>
+  
+  <section class="about-section" id="about">
+    <div class="about-container">
+      <div class="about-text">
+        <h2>OUR STORY</h2>
+        <h3>Something to Know About Xemicolon Technology</h3>
+        <p><strong>Xemicolon Technology</strong> is a cybersecurity-driven company focused on helping businesses secure their applications, infrastructure, and data against real-world cyber threats. From startups to enterprises, we deliver expert-led services that identify and fix vulnerabilities before attackers can exploit them.</p>
+        <p>We specialize in penetration testing for web applications, mobile apps, APIs, and networks — built on industry standards like OWASP, NIST, and MITRE ATT&CK. Our goal is to give clients a clear understanding of their security posture and provide actionable insights that improve long-term protection.</p>
+        <p>Whether you’re looking to meet compliance standards, reduce cyber risk, or strengthen customer trust, Xemicolon is here to help you move forward — securely.</p>
+  
+        <ul class="about-points">
+          <li>→ Business-focused security insights</li>
+          <li>→ Modern and actionable reporting</li>
+          <li>→ Hands-on ethical hacking & manual testing</li>
+          <li>→ Transparent, client-first communication</li>
+        </ul>
+  
+        <div class="cta-buttons">
+          <a href="#team" class="btn-primary">Meet the Team</a>
+          <a href="#contact-section" class="btn-outline">Talk to Security Experts</a>
+        </div>
+      </div>
+  
+      <div class="about-image">
+        <img src="assets/intro-box-bg.png" alt="Xemicolon Team" />
+      </div>
+    </div>
+  </section>
+  
+  <section class="why-choose-us-v2">
+    <div class="why-choose-us-title">
+      <h2>Why Xemicolon Is the Right Security Partner for You</h2>
+    </div>
+    <div class="container-why-choose-us">
+      <div class="parent">
+        <div class="card card1">
+          <img src="assets/attack.png" alt="real-world-attacks">
+          <h3>Real-World Simulated Attacks</h3>
+          <p>We emulate real hacker tactics using OWASP and MITRE ATT&CK to uncover exploitable risks.</p>
+        </div>
+        <div class="card card2">
+          <img src="assets/certified_framework.png" alt="Standards & Frameworks">
+          <h3>Standards & Frameworks</h3>
+          <p>Compliance with OWASP, NIST, and MITRE ensures you're always audit-ready and secure.</p>
+        </div>
+        <div class="card card3">
+          <img src="assets/report.png" alt="Reports">
+          <h3>Clear, Actionable Reports</h3>
+          <p>We deliver executive summaries and step-by-step fix lists your teams can use right away.</p>
+        </div>
+        <div class="cta-card">
+          <img src="assets/protect.png" alt="protect your business">
+          <h3>Bulletproof Your Cybersecurity</h3>
+          <p>From discovery to remediation, our team helps you close security gaps before attackers find them.</p>
+          <a href="#" class="cta-button">Book Free Consultation</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  <section class="contact-section" id="contact-section">
+    <div class="contact-container">
+      <!-- Left Side Text -->
+      <div class="contact-info">
+        <h2>Get in Touch!</h2>
+        <p>Have questions or just want to say hello?<br>
+        Fill out the form or reach us directly via email or phone.</p>
+      </div>
+  
+      <!-- Form -->
+      <form class="contact-form">
+        <h3>Contact Us</h3>
+  
+        <div class="form-row">
+          <div class="form-group">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" required />
+          </div>
+          <div class="form-group">
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" required />
+          </div>
+        </div>
+  
+        <div class="form-group">
+          <label for="email">Business Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+  
+        <div class="form-group">
+          <label for="company">Company:</label>
+          <input type="text" id="company" name="company" />
+        </div>
+  
+        <div class="form-group">
+          <label for="country">Country:</label>
+          <input type="text" id="country" name="country" />
+        </div>
+  
+        <p class="privacy-text">
+          We will handle your contact details in line with our <a href="#">Privacy Policy</a>. If you prefer not to receive marketing emails from us, you can opt-out of all marketing communications or customize your preferences <a href="#">here</a>!
+        </p>
+  
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
+    </div>
+  </section>
+  
+  <footer class="site-footer">
+    <div class="footer-container">
+      <!-- Brand/Logo -->
+      <div class="footer-col brand">
+        <img src="assets/logo_dark.jpg" alt="Xemicolon Logo" class="footer-logo"/>
+        <p>Empowering businesses with secure, scalable IT solutions.</p>
+  
+        <!-- Social Media Icons -->
+        <div class="social-icons">
+          <a href="#" aria-label="LinkedIn">
+            <svg fill="currentColor" viewBox="0 0 24 24"><path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.8v2.2h.1c.7-1.3 2.4-2.6 5-2.6 5.4 0 6.4 3.5 6.4 8v8.4h-5V16c0-1.6-.1-3.7-2.2-3.7-2.2 0-2.5 1.7-2.5 3.6v8.1h-5V8z"/></svg>
+          </a>
+          <a href="#" aria-label="Twitter">
+            <svg fill="currentColor" viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 01-3.14 1.53A4.48 4.48 0 0022.4.36a9.3 9.3 0 01-2.83 1.08 4.48 4.48 0 00-7.6 4.08A12.7 12.7 0 013 2.47a4.48 4.48 0 001.39 5.96A4.48 4.48 0 012 7.58v.05a4.48 4.48 0 003.6 4.4A4.48 4.48 0 012 12.75a4.48 4.48 0 004.19 3.13A9 9 0 012 19.54a12.7 12.7 0 006.29 1.84c7.55 0 11.67-6.26 11.67-11.67 0-.18-.01-.36-.02-.54A8.36 8.36 0 0023 3z"/></svg>
+          </a>
+          <a href="#" aria-label="Facebook">
+            <svg fill="currentColor" viewBox="0 0 24 24"><path d="M22.675 0h-21.35C.597 0 0 .597 0 1.325v21.351C0 23.403.597 24 1.325 24H12.82v-9.294H9.692V11.27h3.127V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.464.099 2.796.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.312h3.587l-.467 3.436h-3.12V24h6.116C23.403 24 24 23.403 24 22.676V1.325C24 .597 23.403 0 22.675 0z"/></svg>
+          </a>
+        </div>
+      </div>
+  
+      <!-- Navigation -->
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li id="services-li"><a href="#">Web Application Penetration Testing</a></li>
+          <li><a href="#">Mobile Application Penetration Testing</a></li>
+          <li><a href="#">API Penetration Testing</a></li>
+          <li><a href="#">Network Penetration Testing</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Solutions</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+  
+      <!-- Contact -->
+      <div class="footer-col">
+        <h4>Get in Touch</h4>
+        <ul>
+          <li><a href="mailto:info@xemicolon.com">info@xemicolon.com</a></li>
+          <li><a href="#">+855 XXX XXX XXX</a></li>
+        </ul>
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      <p>&copy; 2025 Xemicolon Technology. All rights reserved.</p>
+    </div>
+  </footer>
+  
+</body>
+<script src="script.js"></script>
+<script src="nav-animation.js"></script>
+</script>
+</html>

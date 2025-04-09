@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xemicolon Technology</title>
+    <link
+      rel="icon"
+      href="../assets/logo_small_white.jpg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="navbar" id="navbar">
+      <div class="container">
+        <a href="../index.html"><img
+          src="../assets/logo_dark.png"
+          alt="Xemicolon Logo"
+          class="logo-img"
+          id="logo"
+        /></a>
+
+        <nav class="nav-center">
+          <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li class="mega-toggle" id="servicesLink">
+              <a href="#">Services</a>
+            </li>
+            <li><a href="#">Solutions</a></li>
+            <li><a href="../index.html#contact-section">Contact Us</a></li>
+          </ul>
+        </nav>
+
+        <div class="hamburger" id="hamburger">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+
+      <!-- Mega Menu -->
+      <div class="mega-menu" id="megaMenu">
+        <div class="mega-left">
+          <ul class="service-tabs">
+            <li class="active" data-target="pentest">Penetration testing →</li>
+            <li data-target="dev">Development →</li>
+            <li data-target="biz">Business and Enterprise →</li>
+          </ul>
+        </div>
+        <div class="divider"></div>
+        <div class="mega-right">
+          <ul class="mega-content active" id="pentest">
+            <li>
+              <a href="../pages/web-application-penetration-testing.html"
+                >Web Application Penetration Testing</a
+              >
+            </li>
+            <li>
+              <a href="../pages/mobile-application-penetration-testing.html"
+                >Mobile Application Penetration Testing</a
+              >
+            </li>
+            <li>
+              <a href="../pages/api-penetration-testing.html"
+                >API Penetration Testing</a
+              >
+            </li>
+            <li>
+              <a href="../pages/network-penetration-testing.html"
+                >Network Penetration Testing</a
+              >
+            </li>
+          </ul>
+          <ul class="mega-content" id="dev">
+            <li><a href="#">Custom Software</a></li>
+            <li><a href="#">API Integration</a></li>
+          </ul>
+          <ul class="mega-content" id="biz">
+            <li><a href="#">Consulting</a></li>
+            <li><a href="#">Enterprise Solutions</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Fullscreen Mobile Nav -->
+      <div class="mobile-nav-overlay" id="mobileNav">
+        <div class="close-icon" id="closeNav">&times;</div>
+        <ul class="mobile-nav-links">
+          <li><a href="../index.html">Home</a></li>
+
+          <li class="has-submenu">
+            <a href="#" id="servicesToggle">Services ▾</a>
+            <ul class="submenu" id="servicesSubmenu">
+              <li><a href="../pages/web-application-penetration-testing.html">Web Application Penetration Testing</a></li>
+              <li><a href="../pages/mobile-application-penetration-testing.html">Mobile Application Penetration Testing</a></li>
+              <li><a href="../pages/api-penetration-testing.html">API Penetration Testing</a></li>
+              <li><a href="../pages/network-penetration-testing.html">Network Penetration Testing</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#">Solutions</a></li>
+          <li><a href="#contact-section">Contact Us</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      style="background: #f5f1eb; padding: 60px 20px; font-family: Poppins;margin-top: 90px"
+    >
+      <div
+        style="
+          max-width: 1200px;
+          margin: 0 auto;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          gap: 40px;
+        "
+      >
+        <!-- Left Content -->
+        <div style="flex: 1; min-width: 300px">
+          <h1
+            style="
+              font-size: 32px;
+              font-weight: bold;
+              margin-bottom: 20px;
+              color: #021526;
+            "
+          >
+            Mobile Application Penetration Testing
+          </h1>
+
+          <div
+            style="
+              border-left: 4px solid #f78c30;
+              padding-left: 15px;
+              margin-bottom: 25px;
+            "
+          >
+            <p style="font-size: 18px; color: #021526; margin: 0">
+              Secure Your Mobile Apps<br />
+              Protect Users, Data, and Reputation
+            </p>
+          </div>
+
+          <a
+            href="../index.html#contact-section"
+            style="
+              display: inline-block;
+              background-color: #f78c30;
+              color: white;
+              padding: 10px 24px;
+              text-decoration: none;
+              border-radius: 4px;
+              font-weight: bold;
+            "
+          >
+            Visit Us
+          </a>
+        </div>
+
+        <!-- Right Image -->
+        <!-- <div style="flex: 1; min-width: 300px; text-align: right">
+          <img
+            src="../assets/mobile_pentest.png"
+            alt="Mobile App Security"
+            style="max-width: 50%; height: auto"
+          />
+        </div> -->
+      </div>
+    </section>
+
+    <section style="background-color: #edebe7; padding: 15px 20px">
+      <div style="max-width: 1200px; margin: 0 auto; font-size: 14px">
+        <a href="/" style="color: #021526; text-decoration: none">Home</a>
+        <span style="color: #021526"> &gt; </span>
+        <a href="/services" style="color: #021526; text-decoration: none"
+          >Services</a
+        >
+        <span style="color: #021526"> &gt; </span>
+        <span style="color: #021526; font-weight: bold"
+          >Mobile Application Penetration Testing</span
+        >
+      </div>
+    </section>
+
+    <!-- Section: How We Strengthen Your Security -->
+    <section style="padding: 60px 20px">
+      <div style="max-width: 1200px; margin: 0 auto">
+        <h2 style="font-size: 28px; margin-bottom: 30px">
+          How We Secure Your Mobile App
+        </h2>
+
+        <div style="margin-bottom: 40px">
+          <h3 style="color: #f78c30">1. Defining the Testing Scope</h3>
+          <p style="line-height: 1.6">
+            Every app is different. We tailor our testing based on your app’s
+            platform, features, and business risks—whether iOS, Android, or
+            hybrid—and align with compliance needs and real-world mobile
+            threats.
+          </p>
+        </div>
+
+        <div style="margin-bottom: 40px">
+          <h3 style="color: #f78c30">2. Multi-Layer Security Testing</h3>
+          <ul style="padding-left: 20px; line-height: 1.8">
+            <li>
+              <strong>API & Backend Integration:</strong> Assess endpoints for
+              authentication, authorization, and data leakage risks.
+            </li>
+            <li>
+              <strong>Network Traffic:</strong> Detect unencrypted
+              transmissions, session token leaks, and MITM risks.
+            </li>
+            <li>
+              <strong>Authentication & Session:</strong> Evaluate login
+              mechanisms and token management for flaws.
+            </li>
+            <li>
+              <strong>Reverse Engineering:</strong> Analyze code obfuscation,
+              tampering resistance, and embedded secrets.
+            </li>
+            <li>
+              <strong>Client-Side Vulnerabilities:</strong> Check for insecure
+              data storage, injections, and excessive permissions.
+            </li>
+          </ul>
+        </div>
+
+        <div style="margin-bottom: 40px">
+          <h3 style="color: #f78c30">3. Real-World Exploitation Testing</h3>
+          <p style="line-height: 1.6">
+            We simulate actual attacks based on OWASP Mobile Top 10, NIST, and
+            MITRE ATT&CK tactics:
+          </p>
+          <ul style="padding-left: 20px; line-height: 1.8">
+            <li>
+              <strong>Insecure Data Storage:</strong> Unprotected passwords,
+              tokens, and PII.
+            </li>
+            <li>
+              <strong>Weak Auth & Session Management:</strong> Bypass, replay,
+              or hijack sessions.
+            </li>
+            <li>
+              <strong>Code Tampering & Malware Injection:</strong> Analyze risks
+              of cloned apps and malicious code.
+            </li>
+            <li>
+              <strong>Improper Certificate Pinning:</strong> Detect if data is
+              exposed to network interception.
+            </li>
+            <li>
+              <strong>Business Logic Flaws:</strong> Exploit workflows to gain
+              unauthorized access or actions.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: What You Get -->
+    <section
+      style="background-color: #f5f1eb; padding: 60px 20px; color: #021526"
+    >
+      <div style="max-width: 1200px; margin: 0 auto">
+        <h2 style="font-size: 28px; margin-bottom: 30px">
+          What You Get – Mobile Security Report
+        </h2>
+        <ul style="padding-left: 20px; line-height: 1.8">
+          <li>
+            <strong>Executive Summary:</strong> Non-technical summary of major
+            risks and their impact.
+          </li>
+          <li>
+            <strong>Technical Breakdown:</strong> Developer-focused,
+            step-by-step fixes.
+          </li>
+          <li>
+            <strong>Risk Prioritization:</strong> Categorized vulnerabilities
+            (Critical / High / Medium / Low).
+          </li>
+          <li>
+            <strong>Code-Level Guidance:</strong> Remediation recommendations
+            with best practices.
+          </li>
+          <li>
+            <strong>Re-Test Option:</strong> Post-fix validation to ensure your
+            app is secure.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Section: Why It Matters -->
+    <section
+      style="padding: 60px 20px; background-color: #f5f1eb; color: #021526"
+    >
+      <div style="max-width: 1200px; margin: 0 auto">
+        <h2 style="font-size: 28px; margin-bottom: 30px">
+          Why Mobile App Security Matters
+        </h2>
+        <ul style="padding-left: 20px; line-height: 1.8">
+          <li>
+            <strong>Protect Sensitive Data:</strong> Avoid breaches of user
+            credentials and financial info.
+          </li>
+          <li>
+            <strong>Prevent Fraud & Takeovers:</strong> Weak auth opens the door
+            to account hijacking.
+          </li>
+          <li>
+            <strong>Ensure Compliance:</strong> Stay aligned with GDPR, HIPAA,
+            and app store policies.
+          </li>
+          <li>
+            <strong>Protect Brand Trust:</strong> One flaw could destroy user
+            confidence and retention.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section
+      style="
+        padding: 60px 20px;
+        background-color: #021526;
+        color: #fff;
+        text-align: center;
+      "
+    >
+      <div style="max-width: 800px; margin: 0 auto">
+        <h2 style="font-size: 28px; margin-bottom: 20px; color: #f78c30">
+          Secure Your Mobile App Now
+        </h2>
+        <p style="font-size: 16px; margin-bottom: 30px">
+          Don’t let your app become a hacker’s next target—lock down your mobile
+          security today.
+        </p>
+        <a
+          href="../index.html#contact-section"
+          style="
+            display: inline-block;
+            background-color: #f78c30;
+            color: #021526;
+            padding: 14px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 6px;
+          "
+        >
+          Schedule Free Mobile App Assessment
+        </a>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-container">
+        <!-- Brand/Logo -->
+        <div class="footer-col brand">
+          <img
+            src="../assets/logo_dark.jpg"
+            alt="Xemicolon Logo"
+            class="footer-logo"
+          />
+          <p>Empowering businesses with secure, scalable IT solutions.</p>
+
+          <!-- Social Media Icons -->
+          <div class="social-icons">
+            <a href="#" aria-label="LinkedIn">
+              <svg fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.8v2.2h.1c.7-1.3 2.4-2.6 5-2.6 5.4 0 6.4 3.5 6.4 8v8.4h-5V16c0-1.6-.1-3.7-2.2-3.7-2.2 0-2.5 1.7-2.5 3.6v8.1h-5V8z"
+                />
+              </svg>
+            </a>
+            <a href="#" aria-label="Twitter">
+              <svg fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M23 3a10.9 10.9 0 01-3.14 1.53A4.48 4.48 0 0022.4.36a9.3 9.3 0 01-2.83 1.08 4.48 4.48 0 00-7.6 4.08A12.7 12.7 0 013 2.47a4.48 4.48 0 001.39 5.96A4.48 4.48 0 012 7.58v.05a4.48 4.48 0 003.6 4.4A4.48 4.48 0 012 12.75a4.48 4.48 0 004.19 3.13A9 9 0 012 19.54a12.7 12.7 0 006.29 1.84c7.55 0 11.67-6.26 11.67-11.67 0-.18-.01-.36-.02-.54A8.36 8.36 0 0023 3z"
+                />
+              </svg>
+            </a>
+            <a href="#" aria-label="Facebook">
+              <svg fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M22.675 0h-21.35C.597 0 0 .597 0 1.325v21.351C0 23.403.597 24 1.325 24H12.82v-9.294H9.692V11.27h3.127V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.464.099 2.796.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.312h3.587l-.467 3.436h-3.12V24h6.116C23.403 24 24 23.403 24 22.676V1.325C24 .597 23.403 0 22.675 0z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Navigation -->
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li id="services-li">
+              <a href="#">Web Application Penetration Testing</a>
+            </li>
+            <li><a href="#">Mobile Application Penetration Testing</a></li>
+            <li><a href="#">API Penetration Testing</a></li>
+            <li><a href="#">Network Penetration Testing</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Solutions</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-col">
+          <h4>Get in Touch</h4>
+          <ul>
+            <li><a href="mailto:info@xemicolon.com">info@xemicolon.com</a></li>
+            <li><a href="#">+855 XXX XXX XXX</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Xemicolon Technology. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+  <script src="../script.js"></script>
+  <script src="../nav-animation.js"></script>
+</html>
